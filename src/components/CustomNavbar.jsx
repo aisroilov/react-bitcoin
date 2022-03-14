@@ -11,7 +11,7 @@ const CustomNavbar = () => {
           Probearbeit Frontend
         </Link>
       </Navbar>
-      <div class="sidebar">
+      <div className="sidebar">
         <Link className="nav-link" to="/">
           Home
         </Link>

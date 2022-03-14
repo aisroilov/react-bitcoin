@@ -33,7 +33,7 @@ function App() {
         </div>
       ) : (
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home data={btcPrice} />} />
           <Route path="task" element={<Assignment />} />
         </Routes>
       )}
