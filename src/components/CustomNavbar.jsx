@@ -13,7 +13,10 @@ const CustomNavbar = () => {
       </Navbar>
       <div className="sidebar">
         <Link className="nav-link" to="/">
-          Home
+          Btc Prices
+        </Link>
+        <Link className="nav-link" to="/details">
+          Btc Details
         </Link>
         <Link className="nav-link" to="/task">
           Task
