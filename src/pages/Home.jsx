@@ -1,12 +1,10 @@
 import React from "react";
-import CustomNavbar from "../components/CustomNavbar";
-import Task from "../components/Task";
+import BitcoinPrice from "../components/BitcoinPrice";
 
 const Home = () => {
   return (
     <div>
-      <CustomNavbar />
-      <Task />
+      <BitcoinPrice />
     </div>
   );
 };
