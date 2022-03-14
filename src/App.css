@@ -1,1 +1,6 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.main-content {
+    padding-left: 220px;
+    padding-top: 100px;
+}
