@@ -5,6 +5,7 @@ import Assignment from "./pages/Assignment";
 import { useEffect, useState } from "react";
 import { Spinner } from "react-bootstrap";
 import CustomNavbar from "./components/CustomNavbar";
+import Details from "./pages/Details";
 
 function App() {
   const [btcPrice, SetBtcPrice] = useState([]);
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home data={btcPrice} />} />
           <Route path="task" element={<Assignment />} />
+          <Route path="details" element={<Details />} />
         </Routes>
       )}
     </div>
